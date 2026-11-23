@@ -1,4 +1,4 @@
-streamlit>=1.50
+req = """streamlit>=1.50
 pandas
 numpy
 scipy
@@ -17,3 +17,9 @@ plotly
 matplotlib
 seaborn
 boto3
+"""
+open("requirements.txt", "w").write(req)
+os.makedirs(".streamlit", exist_ok=True)
+open(".streamlit/config.toml", "w").write('[theme]\nbase = "light"\nprimaryColor = "#4f46e5"\n\n[server]\nheadless = true\n')
+for f in ["app.py", "nlp_core.py", "requirements.txt", "data/sample_question_bank.csv"]:
+    print("OK " if os.path.exists(f) else "MISSING", f)
