@@ -1,12 +1,14 @@
-req = """streamlit>=1.50
-pandas
-numpy
-scipy
-scikit-learn
-joblib
-spacy>=3.8,<3.9
+streamlit>=1.30.0
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+spacy>=3.7.0
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
 sentence-transformers
+transformers
+sentencepiece
 pdfplumber
 python-docx
 vaderSentiment
@@ -16,10 +18,3 @@ google-genai
 plotly
 matplotlib
 seaborn
-boto3
-"""
-open("requirements.txt", "w").write(req)
-os.makedirs(".streamlit", exist_ok=True)
-open(".streamlit/config.toml", "w").write('[theme]\nbase = "light"\nprimaryColor = "#4f46e5"\n\n[server]\nheadless = true\n')
-for f in ["app.py", "nlp_core.py", "requirements.txt", "data/sample_question_bank.csv"]:
-    print("OK " if os.path.exists(f) else "MISSING", f)
