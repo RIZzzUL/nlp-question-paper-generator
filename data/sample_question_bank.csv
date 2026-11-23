@@ -1,0 +1,65 @@
+question,marks,co_true
+Define tokenization and list two differences between stemming and lemmatization.,2,CO1
+Explain the TF-IDF weighting scheme with a suitable example.,5,CO1
+Describe the steps of a text preprocessing pipeline for noisy social media data.,5,CO1
+Compare Bag-of-Words and word embeddings for text representation.,5,CO1
+Apply stop-word removal and lemmatization to a given sentence and show the result.,3,CO1
+Design a pipeline to extract text from scanned PDF documents.,10,CO1
+What is named entity recognition? Give two examples.,2,CO2
+Explain how Naive Bayes classifies a review as positive or negative.,5,CO2
+Compare lexicon-based and machine-learning approaches to sentiment analysis.,5,CO2
+"Evaluate the performance of a sentiment classifier using precision, recall and F1-score.",5,CO2
+Illustrate relation extraction from news text using dependency parsing.,5,CO2
+Critically assess the limitations of rule-based information extraction.,10,CO2
+Define topic modeling.,2,CO3
+Explain the working of Latent Dirichlet Allocation.,5,CO3
+Describe how language detection and machine translation support multilingual NLP.,5,CO3
+Compare LDA and NMF for topic discovery.,5,CO3
+"Develop a solution to transcribe, translate and analyse Hindi customer-call audio using cloud AI services.",10,CO3
+Interpret coherence scores to select the number of topics.,3,CO3
+What is prompt engineering?,2,CO4
+"Explain zero-shot, few-shot and chain-of-thought prompting with examples.",5,CO4
+Describe the architecture of a Retrieval-Augmented Generation system.,5,CO4
+Analyse how hallucinations in large language models can be reduced.,5,CO4
+"Design an LLM-powered application that summarises customer feedback, including the prompt template.",10,CO4
+Discuss ethical risks of deploying generative AI in education.,3,CO4
+State the difference between a corpus and a document.,2,CO1
+Define n-grams and give one example of a bigram.,2,CO1
+Explain how Word2Vec learns word embeddings from context.,5,CO1
+Describe the role of regular expressions in text cleaning.,3,CO1
+"Apply Porter stemming to the words running, happily and studies.",3,CO1
+Compare stemming and lemmatization with suitable examples.,5,CO1
+Illustrate the Bag-of-Words representation for two short sentences.,5,CO1
+Differentiate count vectorizer and TF-IDF vectorizer.,5,CO1
+Justify the use of sentence embeddings over TF-IDF for semantic search.,5,CO1
+Design a text-cleaning pipeline for OCR output of old scanned notes.,10,CO1
+What is part-of-speech tagging?,2,CO2
+Define precision and recall.,2,CO2
+Explain how a confusion matrix is used to compute the F1-score.,5,CO2
+Describe how named entities are extracted using spaCy.,3,CO2
+Apply a lexicon-based approach to find the polarity of a product review.,5,CO2
+Compare macro and micro averaged F1 for imbalanced text classes.,5,CO2
+Differentiate rule-based and statistical information extraction.,5,CO2
+Evaluate the suitability of cloud sentiment APIs for a regional-language dataset.,10,CO2
+Design a spam classifier for emails and explain how you would evaluate it.,10,CO2
+Examine why accuracy is misleading for imbalanced text classification.,5,CO2
+What is language detection?,2,CO3
+Define perplexity in topic models.,2,CO3
+Explain the role of alpha and beta priors in LDA.,5,CO3
+Describe how NMF factorises a document-term matrix.,5,CO3
+Illustrate how machine translation helps in cross-lingual search.,3,CO3
+Compare UMass and NPMI coherence for choosing topic count.,5,CO3
+Apply topic modeling to group customer complaints into themes.,5,CO3
+Analyse challenges in translating code-mixed Hinglish text.,5,CO3
+Evaluate speech-to-text services for noisy lecture recordings.,10,CO3
+"Design a multilingual pipeline that detects, translates and tags topics in news articles.",10,CO3
+Define hallucination in large language models.,2,CO4
+What is chain-of-thought prompting?,2,CO4
+Explain the role of the context window in LLMs.,3,CO4
+Describe how embeddings and a vector store are used in RAG.,5,CO4
+Illustrate few-shot prompting with an example for sentiment labelling.,5,CO4
+Compare zero-shot prompting and fine-tuning for a classification task.,5,CO4
+Analyse the trade-offs of temperature settings in text generation.,5,CO4
+Critique an LLM answer that cites a non-existent reference.,5,CO4
+Evaluate guardrails that reduce prompt injection in an LLM application.,10,CO4
+Develop a RAG chatbot that answers student queries from lecture notes.,10,CO4
